@@ -8,4 +8,4 @@ platforms = ["win-64", "linux-64", "osx-64"]
 [tasks]
 
 [dependencies]
-icub-main = "==2.4.0"
+icub-main = "2.4.0"
