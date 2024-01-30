@@ -1,0 +1,11 @@
+[project]
+name = "icub-firmware-updater-pixi-example"
+version = "0.1.0"
+description = "Example of use of pixi to run FirmwareUpdater to deal with iCub and ergoCub software."
+channels = ["conda-forge","robotology"]
+platforms = ["win-64", "linux-64", "osx-64"]
+
+[tasks]
+
+[dependencies]
+icub-main = "==2.4.0"
